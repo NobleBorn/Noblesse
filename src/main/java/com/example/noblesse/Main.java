@@ -18,13 +18,6 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-
-        try {
-            FileDecryption fileDecryption = new FileDecryption();
-            fileDecryption.decryptFile();
-        } catch (Exception e){
-            System.out.println(e.getMessage());
-        }
         launch();
     }
 }
