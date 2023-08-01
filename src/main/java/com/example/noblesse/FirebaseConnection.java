@@ -19,7 +19,7 @@ public class FirebaseConnection {
 
     private FirebaseConnection(){
         try {
-            InputStream serviceAccount = getClass().getResourceAsStream("/com/example/noblesse/apiKey");
+            InputStream serviceAccount = getClass().getResourceAsStream("/com/example/noblesse/decrypted");
             assert serviceAccount != null;
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
