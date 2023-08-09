@@ -2,33 +2,29 @@ package com.example.noblesse;
 
 public class User {
 
-    private String username;
     private String email;
+    private String username;
+    private String password;
 
     // Default constructor (required for Firestore deserialization)
     public User() {
     }
 
-    public User(String username, String email) {
-        this.username = username;
+    public User(String email, String username, String password) {
         this.email = email;
-    }
-
-    // Getters and setters (required for Firestore serialization)
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
         this.username = username;
+        this.password = password;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public String getUsername() {
+        return username;
     }
 
+    public String getPassword() {
+        return password;
+    }
 }

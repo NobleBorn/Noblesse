@@ -1,0 +1,60 @@
+.button {
+    -fx-font-family: Arial;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(to right, #11998e, #38ef7d);
+    -fx-effect: innershadow(three-pass-box, #0a5b09, 10, 0, 0, 0);
+    -fx-effect: dropshadow(three-pass-box, #58c32a, 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #45b649;
+}
+
+.button:pressed {
+    -fx-background-color: #45b649;
+    -fx-text-fill: #FFFFFF;
+}
+
+#signUpPageBttn {
+    -fx-background-color: linear-gradient(to bottom, #50c9c3, #96deda);
+    -fx-effect: innershadow(gaussian, #1ca1c7, 10, 0, 0, 0);
+    -fx-effect: dropshadow(gaussian, #1ca1c7, 10, 0, 0, 0);
+}
+
+#signUpPageBttn:hover {
+    -fx-background-color: linear-gradient(to top, #085078, #85d8ce);
+}
+
+#signUpPageBttn:pressed {
+    -fx-background-color: linear-gradient(to top, #085078, #85d8ce);
+    -fx-text-fill: #FFFFFF;
+
+}
+
+#logInPageBttn {
+    -fx-background-color: linear-gradient(to bottom, #50c9c3, #96deda);
+    -fx-effect: innershadow(gaussian, #1ca1c7, 10, 0, 0, 0);
+    -fx-effect: dropshadow(gaussian, #1ca1c7, 10, 0, 0, 0);
+}
+
+#logInPageBttn:hover {
+    -fx-background-color: linear-gradient(to top, #085078, #85d8ce);
+}
+
+#logInPageBttn:pressed {
+    -fx-background-color: linear-gradient(to top, #085078, #85d8ce);
+    -fx-text-fill: #FFFFFF;
+
+}
+
+.text-field {
+    -fx-font-family: Arial;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: left;
+    -fx-effect: innershadow(three-pass-box, #0a5b09, 10, 0, 0, 0);
+    -fx-effect: dropshadow(three-pass-box, #58c32a, 10, 0, 0, 0);
+}
